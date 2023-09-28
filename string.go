@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Muhammad Ramdhani")
-	fmt.Println("jumlah karakter =", len("Muhammad Ramdhani"))
-	fmt.Println("karakter ke 1 =", "Muhammad Ramdhani"[0]) // balikannya representasi dari byte
+	fmt.Println("Eko")
+	fmt.Println("Eko Kurniawan")
+	fmt.Println("Eko Kurniawan Khannedy")
+
+	fmt.Println(len("Eko"))
+	fmt.Println("Eko Kurniawan"[0])
+	fmt.Println("Eko Kurniawan Khannedy"[1])
 }

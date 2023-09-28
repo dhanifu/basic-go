@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	type Name string
+	type NoKTP string
+	type Married bool
 
-	var full_name Name = "Muhammad Ramdhani"
-
-	fmt.Println(full_name)
+	var noKtpEko NoKTP = "18741982741897419874"
+	var marriedStatus Married = true
+	fmt.Println(noKtpEko)
+	fmt.Println(marriedStatus)
 }
